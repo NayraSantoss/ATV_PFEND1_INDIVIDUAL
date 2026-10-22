@@ -1,0 +1,65 @@
+.autenticacao-pagina {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.autenticacao-formulario {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.autenticacao-formulario h1 {
+    margin-bottom: 15px;
+}
+
+.autenticacao-formulario label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.autenticacao-senha {
+    position: relative;
+}
+
+.autenticacao-senha input {
+    padding-right: 85px;
+}
+
+.autenticacao-formulario .autenticacao-senha-botao {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 4px 8px;
+    background: transparent;
+    color: var(--preto);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.autenticacao-formulario .autenticacao-senha-botao:hover {
+    background: transparent;
+    color: var(--verde-escuro);
+}
+
+.autenticacao-troca {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.autenticacao-troca a {
+    color: var(--preto);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.autenticacao-troca a:hover {
+    color: var(--verde-escuro);
+}

@@ -1,6 +1,12 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: "/api/:caminho*",
+        destination: "http://localhost:3001/api/:caminho*",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
